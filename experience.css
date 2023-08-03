@@ -1,0 +1,33 @@
+.card-img-top {
+    min-width: 20%;
+    width: 20%;
+    max-width: 20%;
+    border-radius: 8px;
+    /* margin-left: auto; */
+}
+.tit-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.3);
+}
+.card-title{
+    margin: 10px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.heading{
+    margin: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.card-text{
+    font-family: 'Edu SA Beginner', cursive;
+}

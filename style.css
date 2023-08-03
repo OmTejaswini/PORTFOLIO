@@ -1,0 +1,18 @@
+.nav{
+    height: 12vh;
+    /* width: 100vw; */
+    justify-content: center;
+}
+.nav-item{
+    width: 140px;
+    display: flex;
+    /* height: 100%; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+.nav-link{
+    font-size: x-large;
+    font-family: 'Edu SA Beginner', cursive;
+    color: black;
+}

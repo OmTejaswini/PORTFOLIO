@@ -1,0 +1,43 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 100vw;
+    height: 90vh;
+    --bs-card-spacer-x: 6rem;
+    --bs-card-border-width: 0px;
+}
+.card-body{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin: 60px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* background-color: black;
+    color: white; */
+    box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.3);
+    /* box-shadow:  0px 2px 14px 2px #64ffda; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin: 30px 20px 30px 20px;
+    padding: 5px;
+    font-size: 35px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.skills-list{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 10px 30px 15px 40px;
+    font-family: 'Edu SA Beginner';
+    font-size: 20px;
+    list-style: disc;
+}

@@ -1,0 +1,20 @@
+.card{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    font-family: 'Edu SA Beginner', cursive;
+    /* font-size: larger; */
+}
+.card-title{
+    font-size: 28px;
+}
+.card-outline{
+    max-width: 500px;
+    min-width: 300px;
+    width: 40vw;
+    margin: 60px;
+    /* border: 2px solid black; */
+}
